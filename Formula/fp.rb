@@ -2,7 +2,7 @@ class Fp < Formula
   desc "Find free ports via kernel socket binding"
   homepage "https://github.com/luccabb/fp"
   url "https://github.com/luccabb/fp/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "a5396b2725965e0e8bd11893f53ef23c2e658575527a277eb699cae9bd4e7e89"
+  sha256 "4733150d10ddc989e1835d7691a9074966e8aad76b597a014b9cb65a51dfaa4d"
   license "MIT"
 
   head "https://github.com/luccabb/fp.git", branch: "main"
