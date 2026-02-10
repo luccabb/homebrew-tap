@@ -2,7 +2,7 @@ class Fp < Formula
   desc "Find free ports via kernel socket binding"
   homepage "https://github.com/luccabb/fp"
   url "https://github.com/luccabb/fp/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "70bd5a4f874d62bc36b1a043f57d8f766bd346a1a189c014dc9eb11f3d180871"
+  sha256 "7bb08c44eb0da3dc8853e962d2cd9bb3a09b3d969632afa5c632a926e84f4776"
   license "MIT"
 
   head "https://github.com/luccabb/fp.git", branch: "main"
@@ -10,6 +10,7 @@ class Fp < Formula
   def install
     system "make", "CC=#{ENV.cc}"
     bin.install "fp"
+    man1.install "fp.1"
   end
 
   test do
